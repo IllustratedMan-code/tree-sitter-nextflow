@@ -47,8 +47,11 @@ module.exports = grammar({
     source_file: $ => seq(
       optional($.shebang),
       repeat($._statement),
-      optional($.pipeline)
+      // nextflow
+      optional($.process),
+      optional($.workflow)
     ),
+
 
     shebang: $ => seq(
       '#!', /[^\n]*/
@@ -84,8 +87,16 @@ module.exports = grammar({
       ),
       optional(';')
     )),
-
+      
     label: $ => seq(field('name', $.identifier), ":"),
+
+    workflow: $ =>
+      seq(
+        "workflow",
+        "{",
+        repeat($._statement),
+        "}"
+      ),
 
     process: $ =>
       seq(
