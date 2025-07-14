@@ -47,9 +47,6 @@ module.exports = grammar({
     source_file: $ => seq(
       optional($.shebang),
       repeat($._statement),
-      // nextflow
-      optional($.process),
-      optional($.workflow)
     ),
 
 
@@ -60,6 +57,8 @@ module.exports = grammar({
     _statement: $ => prec.left(PREC.STATEMENT, seq(
       optional($.label),
       choice(
+        $.process,
+        $.workflow,
         $.assertion,
         $.groovy_import,
         $.groovy_package,
@@ -93,6 +92,7 @@ module.exports = grammar({
     workflow: $ =>
       seq(
         "workflow",
+        optional(field("name", $.identifier)),
         "{",
         repeat($._statement),
         "}"

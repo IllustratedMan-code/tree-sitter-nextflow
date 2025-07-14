@@ -667,6 +667,10 @@
           "named": true
         },
         {
+          "type": "process",
+          "named": true
+        },
+        {
           "type": "return",
           "named": true
         },
@@ -692,6 +696,10 @@
         },
         {
           "type": "while_loop",
+          "named": true
+        },
+        {
+          "type": "workflow",
           "named": true
         }
       ]
@@ -934,6 +942,10 @@
           "named": true
         },
         {
+          "type": "process",
+          "named": true
+        },
+        {
           "type": "return",
           "named": true
         },
@@ -959,6 +971,10 @@
         },
         {
           "type": "while_loop",
+          "named": true
+        },
+        {
+          "type": "workflow",
           "named": true
         }
       ]
@@ -1236,6 +1252,10 @@
             "named": true
           },
           {
+            "type": "process",
+            "named": true
+          },
+          {
             "type": "return",
             "named": true
           },
@@ -1265,6 +1285,10 @@
           },
           {
             "type": "while_loop",
+            "named": true
+          },
+          {
+            "type": "workflow",
             "named": true
           }
         ]
@@ -1461,6 +1485,10 @@
           "named": true
         },
         {
+          "type": "process",
+          "named": true
+        },
+        {
           "type": "return",
           "named": true
         },
@@ -1486,6 +1514,10 @@
         },
         {
           "type": "while_loop",
+          "named": true
+        },
+        {
+          "type": "workflow",
           "named": true
         }
       ]
@@ -1624,6 +1656,10 @@
             "named": true
           },
           {
+            "type": "process",
+            "named": true
+          },
+          {
             "type": "return",
             "named": true
           },
@@ -1653,6 +1689,10 @@
           },
           {
             "type": "while_loop",
+            "named": true
+          },
+          {
+            "type": "workflow",
             "named": true
           }
         ]
@@ -1880,6 +1920,10 @@
             "named": true
           },
           {
+            "type": "process",
+            "named": true
+          },
+          {
             "type": "return",
             "named": true
           },
@@ -1909,6 +1953,10 @@
           },
           {
             "type": "while_loop",
+            "named": true
+          },
+          {
+            "type": "workflow",
             "named": true
           }
         ]
@@ -2140,6 +2188,10 @@
             "named": true
           },
           {
+            "type": "process",
+            "named": true
+          },
+          {
             "type": "return",
             "named": true
           },
@@ -2169,6 +2221,10 @@
           },
           {
             "type": "while_loop",
+            "named": true
+          },
+          {
+            "type": "workflow",
             "named": true
           }
         ]
@@ -2722,6 +2778,10 @@
             "named": true
           },
           {
+            "type": "process",
+            "named": true
+          },
+          {
             "type": "return",
             "named": true
           },
@@ -2751,6 +2811,10 @@
           },
           {
             "type": "while_loop",
+            "named": true
+          },
+          {
+            "type": "workflow",
             "named": true
           }
         ]
@@ -2894,6 +2958,10 @@
             "named": true
           },
           {
+            "type": "process",
+            "named": true
+          },
+          {
             "type": "return",
             "named": true
           },
@@ -2923,6 +2991,10 @@
           },
           {
             "type": "while_loop",
+            "named": true
+          },
+          {
+            "type": "workflow",
             "named": true
           }
         ]
@@ -4461,6 +4533,10 @@
             "named": true
           },
           {
+            "type": "process",
+            "named": true
+          },
+          {
             "type": "return",
             "named": true
           },
@@ -4490,6 +4566,10 @@
           },
           {
             "type": "while_loop",
+            "named": true
+          },
+          {
+            "type": "workflow",
             "named": true
           }
         ]
@@ -4856,6 +4936,10 @@
             "named": true
           },
           {
+            "type": "process",
+            "named": true
+          },
+          {
             "type": "return",
             "named": true
           },
@@ -4886,6 +4970,10 @@
           {
             "type": "while_loop",
             "named": true
+          },
+          {
+            "type": "workflow",
+            "named": true
           }
         ]
       },
@@ -4904,7 +4992,18 @@
   {
     "type": "workflow",
     "named": true,
-    "fields": {},
+    "fields": {
+      "name": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      }
+    },
     "children": {
       "multiple": true,
       "required": false,
@@ -5030,6 +5129,10 @@
           "named": true
         },
         {
+          "type": "process",
+          "named": true
+        },
+        {
           "type": "return",
           "named": true
         },
@@ -5055,6 +5158,10 @@
         },
         {
           "type": "while_loop",
+          "named": true
+        },
+        {
+          "type": "workflow",
           "named": true
         }
       ]

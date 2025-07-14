@@ -1,5 +1,6 @@
 // Default parameter input
 params.str = "Hello world!"
+String X = "hi"
 
 // split process
 process split {
@@ -16,7 +17,6 @@ process split {
     printf '${x}' | split -b 6 - chunk_
     """
 }
-
 // convert_to_upper process
 process convert_to_upper {
     publishDir "results/upper"
