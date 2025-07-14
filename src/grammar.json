@@ -123,10 +123,6 @@
               },
               {
                 "type": "SYMBOL",
-                "name": "juxt_function_call"
-              },
-              {
-                "type": "SYMBOL",
                 "name": "return"
               },
               {

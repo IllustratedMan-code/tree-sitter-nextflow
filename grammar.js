@@ -72,7 +72,7 @@ module.exports = grammar({
         $.function_declaration,
         $.function_definition,
         $.if_statement,
-        $.juxt_function_call,
+        //$.juxt_function_call,
         // $.pipeline_step_with_block,
         $.return,
         $.switch_statement,

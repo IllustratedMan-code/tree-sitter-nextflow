@@ -639,10 +639,6 @@
           "named": true
         },
         {
-          "type": "juxt_function_call",
-          "named": true
-        },
-        {
           "type": "label",
           "named": true
         },
@@ -907,10 +903,6 @@
         },
         {
           "type": "index",
-          "named": true
-        },
-        {
-          "type": "juxt_function_call",
           "named": true
         },
         {
@@ -1224,10 +1216,6 @@
             "named": true
           },
           {
-            "type": "juxt_function_call",
-            "named": true
-          },
-          {
             "type": "label",
             "named": true
           },
@@ -1457,10 +1445,6 @@
           "named": true
         },
         {
-          "type": "juxt_function_call",
-          "named": true
-        },
-        {
           "type": "label",
           "named": true
         },
@@ -1625,10 +1609,6 @@
           },
           {
             "type": "index",
-            "named": true
-          },
-          {
-            "type": "juxt_function_call",
             "named": true
           },
           {
@@ -1889,10 +1869,6 @@
           },
           {
             "type": "index",
-            "named": true
-          },
-          {
-            "type": "juxt_function_call",
             "named": true
           },
           {
@@ -2157,10 +2133,6 @@
           },
           {
             "type": "index",
-            "named": true
-          },
-          {
-            "type": "juxt_function_call",
             "named": true
           },
           {
@@ -2750,10 +2722,6 @@
             "named": true
           },
           {
-            "type": "juxt_function_call",
-            "named": true
-          },
-          {
             "type": "label",
             "named": true
           },
@@ -2927,10 +2895,6 @@
           },
           {
             "type": "index",
-            "named": true
-          },
-          {
-            "type": "juxt_function_call",
             "named": true
           },
           {
@@ -4022,10 +3986,6 @@
           "named": true
         },
         {
-          "type": "juxt_function_call",
-          "named": true
-        },
-        {
           "type": "label",
           "named": true
         },
@@ -4505,10 +4465,6 @@
             "named": true
           },
           {
-            "type": "juxt_function_call",
-            "named": true
-          },
-          {
             "type": "label",
             "named": true
           },
@@ -4908,10 +4864,6 @@
             "named": true
           },
           {
-            "type": "juxt_function_call",
-            "named": true
-          },
-          {
             "type": "label",
             "named": true
           },
@@ -5098,10 +5050,6 @@
         },
         {
           "type": "index",
-          "named": true
-        },
-        {
-          "type": "juxt_function_call",
           "named": true
         },
         {
